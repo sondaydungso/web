@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MTD Job Application Form</title>
+
+<meta charset="utf-8">
+<meta name="description" content="Application form for MTD">
+<meta name="author" content="Tan Pham Duy">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<form id="application" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+<h1>Tech Position Application Form</h1>
+<h2>MTD CORPORATE</h2>
+<hr>
+
+<fieldset>
+<legend>Desired Position</legend>
+<label for="jobNum">Please enter your job reference number
+    <input type="text" name="jobNum" id="jobNum" 
+    pattern="^\d{5}$"
+    placeholder="00000"
+    />
+</label>
+</fieldset>
+
+<p>
+    <input type="submit" value="Book"/>
+    <input type="reset" value="Reset Form"/>
+</p>
+
+</form>
+
+<footer>
+    <p>&#169; <strong>MTD corporate</strong></p>
+</footer>
+
+
+</body>
+</html>
