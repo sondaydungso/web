@@ -10,7 +10,7 @@ nav {
   
 }
 #nav {
-  background: #3fa46a;
+  background: #000000;
   
 }
 .link {
@@ -23,6 +23,37 @@ nav {
 }
 .link:hover {
   background-color: #ffffff;
-  color: #EEA200;
+  color: #000000;
   padding: 24px 10px;
+}
+
+/* Time table CSS */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}   
+
+th, td {
+  padding: 5px 
+}
+
+.face{
+  width:300px;
+  height:300px;
+}
+
+.email_link{
+  color: black;
+  text-decoration: none;
+}
+
+#Email{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;  
+}
+
+#stdEmail{
+  color: black;
+  text-decoration: none;
 }
