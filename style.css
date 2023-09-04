@@ -1,5 +1,7 @@
 body {
   margin: 0px;
+  
+  
 }
 nav {
   margin-top: 40px;
@@ -56,4 +58,17 @@ th, td {
 #stdEmail{
   color: black;
   text-decoration: none;
+}
+#SE{
+  color: green;
+
+}
+#RN1{
+  color: darkgray;
+}
+#IoT{
+  color: darkblue;
+}
+#RN2{
+  color: darkgray;
 }
