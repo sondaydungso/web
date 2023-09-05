@@ -16,7 +16,7 @@ nav {
   
 }
 .link {
-  transition: 0.4s;
+  transition: 0.5s;
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
@@ -112,13 +112,16 @@ th, td {
 }
 #you{
   float: right;
+}
+
   
 =======
 
 /* Cái id này t dùng trong 1 vài cái <br> để clear float bên trên, xem trong jobs là hiểu (Tân)*/
 #clearAbove{clear: both;}
 
-footer{
-  float: center;
->>>>>>> b8ea4a0a6a24914004ac3d5e2443b14348c29468
+
+#bloc{
+  text-align: center;
+  
 }
