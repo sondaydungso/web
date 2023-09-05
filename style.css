@@ -106,19 +106,6 @@ th, td {
   margin: 10px;
   padding: 10px;
 }
-<<<<<<< HEAD
-#job{
-  float:inherit ;
-}
-#you{
-  float: right;
-  
-=======
 
 /* Cái id này t dùng trong 1 vài cái <br> để clear float bên trên, xem trong jobs là hiểu (Tân)*/
 #clearAbove{clear: both;}
-
-footer{
-  float: center;
->>>>>>> b8ea4a0a6a24914004ac3d5e2443b14348c29468
-}
