@@ -107,5 +107,12 @@ th, td {
   padding: 10px;
 }
 
+#beforeYou{
+    float: left}
+
+#you{
+  float: right;
+}
+
 /* Cái id này t dùng trong 1 vài cái <br> để clear float bên trên, xem trong jobs là hiểu (Tân)*/
 #clearAbove{clear: both;}
