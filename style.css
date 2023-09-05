@@ -30,6 +30,7 @@ nav {
 }
 
 /* Time table CSS */
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -40,10 +41,18 @@ th, td {
   text-align: center;
 }
 
+/* T CHỈNH CHO ẢNH NẰM BÊN CẠNH PHẦN THÔNG TIN NHÉ (TÂN) */
 .face{
   width:300px;
-  height:300px;
+  height:500px;
+  
+  /* PHẦN NÀY T THÊM NÈ (TÂN) */
+  float: left;
+  width: 30%;
+  object-fit: cover;
+  margin: 10px;
 }
+
 
 .email_link{
   color: black;
@@ -85,15 +94,22 @@ th, td {
 #TNE10006{
   background-color: pink;
 }
+
+/* T để ảnh và aside sang 2 bên đều hơn nhé (Tân)*/
+#job{
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+  object-fit: cover;
+}
 #xD{
-  width: 25%;
-  float: right;
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
 }
-#job{
-  float:inherit ;
-}
+
+/* Cái id này t dùng trong 1 vài cái <br> để clear float bên trên, xem trong jobs là hiểu (Tân)*/
+#clearAbove{clear: both;}
+
 footer{
   float: center;
 }
