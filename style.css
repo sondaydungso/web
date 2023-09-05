@@ -94,6 +94,7 @@ th, td {
 #job{
   float:inherit ;
 }
-footer{
-  float: center;
+#you{
+  float: right;
+  
 }
