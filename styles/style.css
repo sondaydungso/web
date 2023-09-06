@@ -84,7 +84,7 @@ th, td {
 
 /* T CHỈNH CHO ẢNH NẰM BÊN CẠNH PHẦN THÔNG TIN NHÉ (TÂN) */
 .face{
-  width: 301px;
+  width: 300px;
   height: 300px;
   
   /* PHẦN NÀY T THÊM NÈ (TÂN) */
@@ -126,12 +126,14 @@ th, td {
 }
 #COS10009{
   background-color: darkred;
+  color: white;
 }
 #COS10004{
   background-color: green ;
 }
 #COS10026{
   background-color: purple;
+  color: white;
 }
 #TNE10006{
   background-color: pink;
