@@ -2,7 +2,7 @@
 body {
   margin: 0;
 }
-
+ 
 #sidenav {
   height: 100%; 
   width: 150px; /* Set the width of the sidebar */
@@ -95,6 +95,7 @@ th, td {
 }
 
 
+
 .email_link{
   color: black;
   text-decoration: none;
@@ -142,6 +143,8 @@ th, td {
   float: left;
   margin-right: 10px;
   object-fit: cover;
+  /* t them border nhe (Tan) */
+  border: 2px solid black;
 }
 #xD{
   margin: 10px;
