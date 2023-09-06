@@ -84,9 +84,6 @@ th, td {
 
 /* T CHỈNH CHO ẢNH NẰM BÊN CẠNH PHẦN THÔNG TIN NHÉ (TÂN) */
 .face{
-  width: 300px;
-  height: 300px;
-  
   /* PHẦN NÀY T THÊM NÈ (TÂN) */
   float: left;
   width: 30%;
