@@ -1,9 +1,50 @@
+/* T cho nhỏ page lại và có background video ở 2 bên */
 body {
-  margin: 0px;
-  
+  margin: 0;
+}
+
+#sidenav {
+  height: 100%; 
+  width: 150px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-image: url(experiment/background-with-gradient-curve-design-with-the-black-theme-illustration-vector.jpg); 
+}
+
+#sidenav2 {
+  height: 100%; 
+  width: 150px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  float: right;
+  right: 0;
+  background-image: url(experiment/background-with-gradient-curve-design-with-the-black-theme-illustration-vector.jpg); 
+}
+
+#pagecontent {
+  margin: 0px 150px;
+  padding: 0 10px;
+}
+
+#logo {
+  float: left;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+#welcome{
+  float: right;
+  width: 60%;
+  text-align: center;
+  font-size: 60px;
   
 }
+
 nav {
+  clear: both;
   margin-top: 40px;
   padding: 24px;
   text-align: center;
@@ -16,7 +57,7 @@ nav {
   
 }
 .link {
-  transition: 0.5s;
+  transition: 0.4s;
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
@@ -106,22 +147,13 @@ th, td {
   margin: 10px;
   padding: 10px;
 }
-<<<<<<< HEAD
-#job{
-  float:inherit ;
-}
+
+#beforeYou{
+    float: left}
+
 #you{
   float: right;
 }
 
-  
-=======
-
 /* Cái id này t dùng trong 1 vài cái <br> để clear float bên trên, xem trong jobs là hiểu (Tân)*/
 #clearAbove{clear: both;}
-
-
-#bloc{
-  text-align: center;
-  
-}
