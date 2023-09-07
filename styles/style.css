@@ -141,18 +141,17 @@ th, td {
   background-color: pink;
 }
 
-/* T để ảnh và aside sang 2 bên đều hơn nhé (Tân)*/
+/* T phải chỉnh lại dù xấu hơn vì đề bài yêu cầu cái aside phải float 25% bên phải*/
 #job{
-  width: 50%;
   float: left;
-  margin-right: 10px;
-  object-fit: cover;
-  /* t them border nhe (Tan) */
+  margin-left: 500px;
   border: 2px solid black;
 }
 #xD{
+  float: right;
   margin: 10px;
   padding: 10px;
+  width: 25%;
 }
 
 #beforeYou{
