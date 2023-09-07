@@ -1,6 +1,9 @@
 /* T cho nhỏ page lại và có background video ở 2 bên */
 body {
   margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-size: large;
 }
  
 #sidenav {
@@ -10,7 +13,7 @@ body {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-image: url(experiment/background-with-gradient-curve-design-with-the-black-theme-illustration-vector.jpg); 
+ 
 }
 
 #sidenav2 {
@@ -21,7 +24,6 @@ body {
   top: 0; /* Stay at the top */
   float: right;
   right: 0;
-  background-image: url(experiment/background-with-gradient-curve-design-with-the-black-theme-illustration-vector.jpg); 
 }
 
 #pagecontent {
@@ -32,14 +34,19 @@ body {
 #logo {
   float: left;
   width: 40%;
+  height: 155px;
   margin-bottom: 10px;
 }
 
 #welcome{
+  display: grid;
   float: right;
   width: 60%;
+  height: 155px;
   text-align: center;
   font-size: 60px;
+  margin: 0;
+  align-items: center;
   
 }
 
@@ -90,8 +97,6 @@ th, td {
   object-fit: cover;
   margin: 10px;
 }
-
-
 
 .email_link{
   color: black;
@@ -210,4 +215,7 @@ $animationSpeed: 40s;
     height: 100px;
     width: 250px;
   }
-}
+
+
+/* Cho enhancement page */
+.canMargin {margin-bottom: 10px;}
