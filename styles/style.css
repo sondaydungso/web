@@ -198,3 +198,22 @@ th, td {
   color: #100e36;
 
 }
+/*blink salary*/
+.blink{
+  background: rgb(0, 0, 0);
+}
+#blink{
+  color: #ffc310;
+  animation: blink-text 1.9s linear infinite;
+  font-size: 30px
+}
+@keyframes blink-text {
+ 0% {
+  opacity: 0;
+ }
+ 50% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: 0;
+ }
