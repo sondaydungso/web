@@ -96,6 +96,7 @@ th, td {
   width: 30%;
   object-fit: cover;
   margin: 10px;
+  border: 2px solid grey;
 }
 
 .email_link{
@@ -149,9 +150,12 @@ th, td {
 
 /* T phải chỉnh lại dù xấu hơn vì đề bài yêu cầu cái aside phải float 25% bên phải*/
 #job{
-  margin-left: 450px;
+  width: 70%;
+  float: left;
 
-  
+  display: grid;
+  place-items: center end;
+
 }
 #xD{
   float: right;
@@ -163,10 +167,13 @@ th, td {
 }
 
 #beforeYou{
-    float: left}
+    text-align: center;
+    font-size: small;}
 
 #you{
-  float: right;
+  display: grid;
+  place-items: center;
+
 }
 
 /* Cái id này t dùng trong 1 vài cái <br> để clear float bên trên, xem trong jobs là hiểu (Tân)*/
