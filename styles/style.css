@@ -168,6 +168,7 @@ th, td {
 
 #indp{
   display: inline-block;
+  object-fit: contain;
   width: 100px;
   height: 100px;
   margin: 30px;
