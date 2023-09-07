@@ -176,3 +176,14 @@ th, td {
 }
 /* Cho enhancement page */
 .canMargin {margin-bottom: 10px;}
+
+/* Cho apply.html */
+#formTitle {
+  font-size: xx-large;
+  text-align: center;
+}
+
+#formTitle2 {
+  font-size: small;
+  text-align: center;
+}
