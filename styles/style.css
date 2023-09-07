@@ -143,15 +143,15 @@ th, td {
 
 /* T phải chỉnh lại dù xấu hơn vì đề bài yêu cầu cái aside phải float 25% bên phải*/
 #job{
-  float: left;
-  margin-left: 500px;
-  border: 2px solid black;
+  margin-left: 450px;
+  
 }
 #xD{
   float: right;
   margin: 10px;
   padding: 10px;
   width: 25%;
+  z-index: auto;
 }
 
 #beforeYou{
