@@ -81,6 +81,7 @@ nav {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  
 }   
 
 th, td {
@@ -93,9 +94,10 @@ th, td {
   /* PHẦN NÀY T THÊM NÈ (TÂN) */
   float: left;
   width: 30%;
-  object-fit: cover;
+  object-fit:cover;
   margin: 10px;
   border: 2px solid grey;
+  height: 400px;
 }
 
 .email_link{
@@ -166,26 +168,44 @@ th, td {
 
 #beforeYou{
     text-align: center;
-    font-size: small;}
+    font-size: small;
+    margin: 0;
+  }
 
 #you{
-  display: grid;
-  place-items: center;
-
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
 }
 
 /* Cái id này t dùng trong 1 vài cái <br> để clear float bên trên, xem trong jobs là hiểu (Tân)*/
 #clearAbove{clear: both;}
-/* ani*/
 
+#flexbox{
+  display: flex;
+  background-color: #9FE2BF;
+  margin: 0 200px;
+  height: 140px;
+  place-content: center;
+
+}
 #indp{
   display: inline-block;
-  object-fit: contain;
+  object-fit:cover;
   width: 100px;
-  height: 100px;
-  margin: 50px;
-  width: 20%;
+  height: 100px; 
+  margin: 20px;
+  /* width: 20%;  */
 }
+#indp1 {
+  display: inline-block;
+  object-fit:cover;
+  width: 300px;
+  height: 100px; 
+  margin: 20px;
+}
+
 /* Cho enhancement page */
 .canMargin {margin-bottom: 10px;}
 
