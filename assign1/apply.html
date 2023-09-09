@@ -92,8 +92,16 @@
 
     
     <p>
-        <label for="streetAddress"> Street Address <input type="text" name="streetAddress" id="streetAddress" placeholder="E.g. John St" required/></label>
-        <label for="suburb"> Suburb/Town <input type="text" name="suburb" id="surburb" required placeholder="E.g. Hawthorn"/></label>
+        <label for="streetAddress"> Street Address <input type="text" 
+            name="streetAddress" id="streetAddress" placeholder="E.g. John St" 
+            required
+            pattern="^[A-Za-z0-9 ]{1,40}$"
+            /></label>
+        <label for="suburb"> Suburb/Town <input type="text" 
+            name="suburb" id="surburb" placeholder="E.g. Hawthorn"
+            required
+            pattern="^[A-Za-z0-9 ]{1,40}$"
+            /></label>
     </p>
         
     <p><label for="state">State</label>
@@ -122,7 +130,9 @@
 
     <p>
         <label for="email">Email Address
-            <input id="email" name="email" type="email" placeholder="name@domain.com" required/> 
+            <input id="email" name="email" type="email" placeholder="name@domain.com" 
+            required
+            pattern="^[A-Za-z0-9]+\@[A-Za-z0-9]+$"/> 
         </label>
     </p>
 
