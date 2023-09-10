@@ -174,7 +174,7 @@ th, td {
   height: 50px;
 }
 
-#clearAbove{clear: both;}
+.clearAbove{clear: both;}
 
 #flexbox{
   display: flex;
@@ -184,7 +184,7 @@ th, td {
   place-content: center;
 
 }
-#indp{
+.indp{
   display: inline-block;
   object-fit:cover;
   width: 100px;
