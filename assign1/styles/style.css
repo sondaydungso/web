@@ -153,6 +153,13 @@ th, td {
   place-items: center end;
 
 }
+#job1{
+  width: 70%;
+  float: left;
+
+  display: grid;
+  place-items: center end;
+}
 #xD{
   float: right;
   margin: 10px;
@@ -160,6 +167,14 @@ th, td {
   width: 25%;
   background-color: #a17d22;
 }
+#xD1{
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  width: 25%;
+  background-color: #a17d22;
+}
+
 
 #beforeYou{
     text-align: center;
@@ -175,6 +190,7 @@ th, td {
 }
 
 #clearAbove{clear: both;}
+#clearAbove1{clear: both;}
 
 #flexbox{
   display: flex;
@@ -237,6 +253,14 @@ input[type=submit], input[type=reset]{
 
 }
 /*blink salary*/
+.blink1{
+  background: rgb(0, 0, 0);
+}
+#blink1{
+  color: #ffc310;
+  animation: blink-text 1.9s linear infinite;
+  font-size: 30px
+}
 .blink{
   background: rgb(0, 0, 0);
 }
@@ -260,4 +284,3 @@ input[type=submit], input[type=reset]{
  100% {
   opacity: 0;
  }
-}
