@@ -1,4 +1,3 @@
-/* T cho nhỏ page lại và có background video ở 2 bên */
 body {
   margin: 0;
   padding: 0;
@@ -76,8 +75,7 @@ nav {
   padding: 24px 10px;
 }
 
-/* Time table CSS */
-
+/* Time table */
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -89,9 +87,7 @@ th, td {
   text-align: center;
 }
 
-/* T CHỈNH CHO ẢNH NẰM BÊN CẠNH PHẦN THÔNG TIN NHÉ (TÂN) */
 .face{
-  /* PHẦN NÀY T THÊM NÈ (TÂN) */
   float: left;
   width: 30%;
   object-fit:cover;
@@ -149,7 +145,6 @@ th, td {
   background-color: pink;
 }
 
-/* T phải chỉnh lại dù xấu hơn vì đề bài yêu cầu cái aside phải float 25% bên phải*/
 #job{
   width: 70%;
   float: left;
@@ -179,7 +174,6 @@ th, td {
   height: 50px;
 }
 
-/* Cái id này t dùng trong 1 vài cái <br> để clear float bên trên, xem trong jobs là hiểu (Tân)*/
 #clearAbove{clear: both;}
 
 #flexbox{
