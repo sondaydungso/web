@@ -6,39 +6,41 @@
 <meta charset="utf-8">
 <meta name="description" content="Application form for MTD">
 <meta name="author" content="Tan Pham Duy">
-<link rel="icon" type="logo" href="images/page_logo.png">
+<link rel="icon" type="image/x-icon" href="images/page_logo.png">
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
-    	<!-- Both side background -->
-        <div id="sidenav"> 
-            <video autoplay muted loop id="navVideo">
-                <source src="images/video.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-              </video>
-        </div>
-    
-        <div id="sidenav2"> 
-            <video autoplay muted loop id="navVideo">
-                <source src="images/video.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-              </video>
-        </div>
+	<!-- 2 background vids on the sides -->
+	<div id="sidenav"> 
+		<video autoplay muted loop>
+			<source src="images/video.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		  </video>
+	</div>
+
+	<div id="sidenav2"> 
+		<video autoplay muted loop>
+			<source src="images/video.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		  </video>
+	</div>
 
 	<article id="pagecontent">
-		
-        <a href="index.html">
-            <img id="logo" src="images/logo - Copy.png" alt="MTD Tech Corporate Offical Logo">
-        </a>
-<h1 id="welcome">Welcome to our company</h1>
-<nav id="nav">
-    <a class="link" href="index.html">Home</a>
-        <a class="link" href="jobs.html">Job Description</a>
-        <a class="link" href="about.html">Group Detail</a>
-        <a class="link" href="enhancements.html">Group's enhancements</a>
-        <a id="email" class="link" href="apply.html">Apply now</a>
-</nav>
+
+	<!--Navigation bar-->
+	<a href="index.html">
+		<img id="logo" src="images/logo-Copy.png" alt="MTD Tech Corporate Offical Logo">
+	</a>
+	<h1 id="welcome">Welcome to our company</h1>
+	<nav id="nav">
+		<a class="link" href="index.html">Home</a>
+		<a class="link" href="jobs.html">Job Description</a>
+		<a class="link" href="about.html">Group Detail</a>
+		<a class="link" href="enhancements.html">Group's enhancements</a>
+		<a class="link" href="apply.html">Apply now</a>
+	</nav>
+
 
 
 <form id="application" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
@@ -98,13 +100,13 @@
             pattern="^[A-Za-z0-9 ]{1,40}$"
             /></label>
         <label for="suburb"> Suburb/Town <input type="text" 
-            name="suburb" id="surburb" placeholder="E.g. Hawthorn"
+            name="suburb" id="suburb" placeholder="E.g. Hawthorn"
             required
             pattern="^[A-Za-z0-9 ]{1,40}$"
             /></label>
     </p>
         
-    <p><label for="state">State</label>
+    <p><label for="state">State
         <select name="state" id="state" required>
             <option value="">Please select</option>
             <option value="VIC">VIC</option>
@@ -158,7 +160,7 @@
     </p>   
     
     <p>
-        <label for="otherSkills"> Other skills</br> 
+        <label for="otherSkills"> Other skills <br>
         <textarea id="otherSkills" name="otherSkills" rows="4" cols="60" placeholder="Please write description of your other skills here!"></textarea>
         </label>    
     </p>
@@ -175,7 +177,7 @@
 <hr>
 <footer>
     <p id="beforeYou">&#169; <strong>MTD corporate</strong></p>
-    <a href="https://www.youtube.com/"><img id="you" src="images/youtube.png" alt="Youtube Logo"></a>
+    <a href="https://www.youtube.com/watch?v=9HWlYoeukHY"><img id="you" src="images/youtube.png" alt="Youtube Logo"></a>
 
 </footer>
 

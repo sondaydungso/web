@@ -101,13 +101,13 @@ th, td {
   text-decoration: none;
 }
 
-#Email{
+.Email{
   font-weight: bold;
   color: black;
   text-decoration: none;  
 }
 
-#stdEmail{
+.stdEmail{
   color: black;
   text-decoration: none;
 }
@@ -130,18 +130,18 @@ th, td {
 #RN2{
   color: darkgray;
 }
-#COS10009{
+.COS10009{
   background-color: darkred;
   color: white;
 }
-#COS10004{
+.COS10004{
   background-color: green ;
 }
-#COS10026{
+.COS10026{
   background-color: purple;
   color: white;
 }
-#TNE10006{
+.TNE10006{
   background-color: pink;
 }
 
@@ -153,6 +153,13 @@ th, td {
   place-items: center end;
 
 }
+#job1{
+  width: 70%;
+  float: left;
+
+  display: grid;
+  place-items: center end;
+}
 #xD{
   float: right;
   margin: 10px;
@@ -160,6 +167,14 @@ th, td {
   width: 25%;
   background-color: #a17d22;
 }
+#xD1{
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  width: 25%;
+  background-color: #a17d22;
+}
+
 
 #beforeYou{
     text-align: center;
@@ -175,6 +190,7 @@ th, td {
 }
 
 #clearAbove{clear: both;}
+#clearAbove1{clear: both;}
 
 #flexbox{
   display: flex;
@@ -184,7 +200,7 @@ th, td {
   place-content: center;
 
 }
-#indp{
+.indp{
   display: inline-block;
   object-fit:cover;
   width: 100px;
@@ -237,6 +253,14 @@ input[type=submit], input[type=reset]{
 
 }
 /*blink salary*/
+.blink1{
+  background: rgb(0, 0, 0);
+}
+#blink1{
+  color: #ffc310;
+  animation: blink-text 1.9s linear infinite;
+  font-size: 30px
+}
 .blink{
   background: rgb(0, 0, 0);
 }
@@ -245,6 +269,11 @@ input[type=submit], input[type=reset]{
   animation: blink-text 1.9s linear infinite;
   font-size: 30px
 }
+
+#dtInGen{
+  float:left
+}
+
 @keyframes blink-text {
  0% {
   opacity: 0;
@@ -255,3 +284,4 @@ input[type=submit], input[type=reset]{
  100% {
   opacity: 0;
  }
+}
