@@ -112,14 +112,14 @@ th, td {
   text-decoration: none;
 }
 #SE{
-  color: #42b3f5;
+  color: darkblue;
   font-family: inherit;
   font-size: 50px;
   font-variant: normal;
 
 }
 #RN1{
-  color: darkgray;
+  color: black;
 }
 #IoT{
   color: darkblue;
@@ -128,7 +128,7 @@ th, td {
   font-variant: normal;
 }
 #RN2{
-  color: darkgray;
+  color: black;
 }
 .COS10009{
   background-color: darkred;
