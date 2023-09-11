@@ -136,13 +136,15 @@ th, td {
 }
 .COS10004{
   background-color: green ;
+  color: white;
 }
 .COS10026{
   background-color: purple;
   color: white;
 }
 .TNE10006{
-  background-color: pink;
+  background-color: blue;
+  color: white;
 }
 
 #job{
@@ -191,6 +193,7 @@ th, td {
 
 #clearAbove{clear: both;}
 #clearAbove1{clear: both;}
+#clearAbove2{clear: both;}
 
 #flexbox{
   display: flex;
@@ -245,7 +248,6 @@ input[type=submit], input[type=reset]{
   color: whitesmoke;
   padding: 10px;
 } 
-
 
 
 #inh{
